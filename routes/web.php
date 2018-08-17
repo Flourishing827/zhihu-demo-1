@@ -48,7 +48,7 @@ Route::post('inbox/{dialogId}/store','InboxController@store');
 
 Route::resource('reports','ReportsController');
 
-
+Route::resource('about','AboutsController');
 
 
 
